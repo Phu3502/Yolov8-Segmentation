@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/Test-seg/train/images
+val: /content/drive/MyDrive/Test-seg/valid/images
+test: /content/drive/MyDrive/Test-seg/test/images
+
+nc: 1
+names: ['yolov7-seg-car']
+
+roboflow:
+  workspace: unibas
+  project: yolov7-seg-b8lzq
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/unibas/yolov7-seg-b8lzq/dataset/2
